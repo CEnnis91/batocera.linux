@@ -19,6 +19,9 @@ snes:
 n64:
   emulator: mupen64plus
   core:     gliden64
+smash64:
+  emulator: libretro
+  core:     mupen64plus-next-raw
 gba:
   emulator: libretro
   core:     mgba

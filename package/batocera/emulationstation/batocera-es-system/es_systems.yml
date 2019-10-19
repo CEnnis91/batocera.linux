@@ -73,6 +73,15 @@ n64:
       mupen64plus-next: { requireAnyOf: [BR2_PACKAGE_LIBRETRO_MUPEN64PLUS_NEXT] }
       parallel_n64:     { requireAnyOf: [BR2_PACKAGE_LIBRETRO_PARALLEL_N64]     }
 
+smash64:
+  name:       Super Smash Bros
+  extensions: [z64, n64, v64, zip, 7z]
+  emulators:
+    libretro:
+      mupen64plus-next-raw: { requireAnyOf: [BR2_PACKAGE_LIBRETRO_MUPEN64PLUS_NEXT_RAW] }
+  comment_en: |
+    Custom version of mupen64plus-next modified to work with raphnet adapters.
+
 gba:
   name:       Game Boy Advance
   extensions: [gba, zip, 7z]

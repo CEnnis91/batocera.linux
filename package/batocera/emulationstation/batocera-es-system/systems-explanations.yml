@@ -63,6 +63,11 @@ default:
       pcsx2:
         explanation: |
           PCSX2 works only on x86 and x86_64 platforms and requires a good cpu.
+  smash64:
+    libretro:
+      mupen64plus-next-raw:
+        explanation: |
+          Requires a raphnet adapter.
   snes:
     libretro:
       bsnes:
@@ -90,6 +95,7 @@ rpi3:
     mupen64plus:
       gliden64:
         flags: [slow_games]
+
 odroidn2:
   megadrive:
     libretro:
